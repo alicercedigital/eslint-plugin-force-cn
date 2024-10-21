@@ -1,6 +1,6 @@
 {
   "name": "@alicercedigital/eslint-plugin",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "description": "custom eslint plugin",
   "keywords": [
     "eslint",
