@@ -1,7 +1,7 @@
 {
-  "name": "@alicercedigital/eslint-plugin-force-cn",
-  "version": "0.0.0",
-  "description": "force use cn function on class and className of any JSX element",
+  "name": "@alicercedigital/eslint-plugin",
+  "version": "0.0.1",
+  "description": "custom eslint plugin",
   "keywords": [
     "eslint",
     "eslintplugin",
@@ -24,8 +24,8 @@
     "requireindex": "^1.2.0"
   },
   "devDependencies": {
-    "eslint": "^9.0.0",
     "@eslint/js": "^9.0.0",
+    "eslint": "^9.0.0",
     "eslint-doc-generator": "^1.0.0",
     "eslint-plugin-eslint-plugin": "^6.0.0",
     "eslint-plugin-n": "^17.0.0",
@@ -38,5 +38,6 @@
   "peerDependencies": {
     "eslint": ">=8.57.0"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "private": false
 }

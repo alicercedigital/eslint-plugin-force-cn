@@ -1,4 +1,4 @@
-# eslint-plugin-force-cn
+# eslint-plugin
 
 force use cn function on class and className of any JSX element
 
@@ -10,23 +10,22 @@ You'll first need to install [ESLint](https://eslint.org/):
 npm i eslint --save-dev
 ```
 
-Next, install `eslint-plugin-force-cn`:
+Next, install `@alicercedigital/eslint-plugin`:
 
 ```sh
-npm install eslint-plugin-force-cn --save-dev
+npm install @alicercedigital/eslint-plugin --save-dev
 ```
 
 ## Usage
 
-In your [configuration file](https://eslint.org/docs/latest/use/configure/configuration-files#configuration-file), import the plugin `eslint-plugin-force-cn` and add `force-cn` to the `plugins` key:
+In your [configuration file](https://eslint.org/docs/latest/use/configure/configuration-files#configuration-file), import the plugin `@alicercedigital/eslint-plugin` and add `force-cn` to the `plugins` key:
 
 ```js
-import force-cn from "eslint-plugin-force-cn";
-
 export default [
     {
         plugins: {
-            force-cn
+          // @alicercedigital/eslint-plugin
+         "@alicercedigital",
         }
     }
 ];
@@ -36,15 +35,14 @@ export default [
 Then configure the rules you want to use under the `rules` key.
 
 ```js
-import force-cn from "eslint-plugin-force-cn";
-
 export default [
     {
         plugins: {
-            force-cn
+          // @alicercedigital/eslint-plugin
+         "@alicercedigital",
         },
         rules: {
-            "force-cn/rule-name": "warn"
+            "@alicercedigital/force-cn": "error"
         }
     }
 ];
